@@ -18,6 +18,8 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 3. Install the required packages:
 
 pip install -r requirements.txt
+import joblib
+model = joblib.load("models/xgboost_final_model.joblib")
 
 
 ## Usage
