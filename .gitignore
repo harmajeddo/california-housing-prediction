@@ -1,24 +1,23 @@
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.so
+*$py.class
 
-# Environment
-.env
-.venv
-env/
-venv/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
 
 # VSCode settings
 .vscode/
 
-# System files
+# Python environment folders
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data files (اختیاری، اگه می‌خوای دیتاست‌ها داخل ریپو نباشن)
+data/
+
+# Mac system files
 .DS_Store
-Thumbs.db
-
-
-# Log files
-*.log
